@@ -22,4 +22,12 @@ class LoginVC: UIViewController {
     }
     
     // MARK: - ACTIONS
+    
+    @IBAction func buttonGoToSignUpPage_Tapped(_ sender: UIButton) {
+        
+        let signUpPage = storyboard?.instantiateViewController(withIdentifier: "SignUp")
+        navigationController?.pushViewController(signUpPage!, animated: true)
+        
+        
+    }
 }

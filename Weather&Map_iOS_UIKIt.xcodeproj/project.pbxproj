@@ -15,6 +15,10 @@
 		8DB476AE2BDE3B8900262A29 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8DB476AD2BDE3B8900262A29 /* Base */; };
 		8DB476BB2BDE3C9C00262A29 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB476BA2BDE3C9C00262A29 /* Auth.storyboard */; };
 		8DB476BE2BDE3CD000262A29 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB476BD2BDE3CD000262A29 /* LoginVC.swift */; };
+		8DB476C12BDF695300262A29 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB476C02BDF695300262A29 /* UIView+Extensions.swift */; };
+		8DB476C32BDF6F0E00262A29 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB476C22BDF6F0E00262A29 /* SignUp.swift */; };
+		8DB476C72BDF741200262A29 /* PhoneNumberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB476C62BDF741200262A29 /* PhoneNumberVC.swift */; };
+		8DB476C92BDF742500262A29 /* OtpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB476C82BDF742500262A29 /* OtpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		8DB476AF2BDE3B8900262A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DB476BA2BDE3C9C00262A29 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
 		8DB476BD2BDE3CD000262A29 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		8DB476C02BDF695300262A29 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		8DB476C22BDF6F0E00262A29 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		8DB476C62BDF741200262A29 /* PhoneNumberVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberVC.swift; sourceTree = "<group>"; };
+		8DB476C82BDF742500262A29 /* OtpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,7 @@
 				8DB476B52BDE3BB000262A29 /* SystemFiles */,
 				8DB476B72BDE3BDB00262A29 /* Controllers */,
 				8DB476B62BDE3BC500262A29 /* Storyboards */,
+				8DB476BF2BDF692F00262A29 /* CommonFiles */,
 				8DB476B92BDE3BF200262A29 /* ResourceFiles */,
 				8DB476AF2BDE3B8900262A29 /* Info.plist */,
 			);
@@ -92,6 +101,8 @@
 		8DB476B72BDE3BDB00262A29 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8DB476C52BDF73EF00262A29 /* PhoneNumber */,
+				8DB476C42BDF73DF00262A29 /* OTP */,
 				8DB476BC2BDE3CAE00262A29 /* Auth */,
 			);
 			name = Controllers;
@@ -117,8 +128,33 @@
 			isa = PBXGroup;
 			children = (
 				8DB476BD2BDE3CD000262A29 /* LoginVC.swift */,
+				8DB476C22BDF6F0E00262A29 /* SignUp.swift */,
 			);
 			name = Auth;
+			sourceTree = "<group>";
+		};
+		8DB476BF2BDF692F00262A29 /* CommonFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8DB476C02BDF695300262A29 /* UIView+Extensions.swift */,
+			);
+			path = CommonFiles;
+			sourceTree = "<group>";
+		};
+		8DB476C42BDF73DF00262A29 /* OTP */ = {
+			isa = PBXGroup;
+			children = (
+				8DB476C82BDF742500262A29 /* OtpVC.swift */,
+			);
+			name = OTP;
+			sourceTree = "<group>";
+		};
+		8DB476C52BDF73EF00262A29 /* PhoneNumber */ = {
+			isa = PBXGroup;
+			children = (
+				8DB476C62BDF741200262A29 /* PhoneNumberVC.swift */,
+			);
+			name = PhoneNumber;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,8 +229,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DB476C72BDF741200262A29 /* PhoneNumberVC.swift in Sources */,
 				8DB476A62BDE3B8800262A29 /* ViewController.swift in Sources */,
+				8DB476C92BDF742500262A29 /* OtpVC.swift in Sources */,
+				8DB476C32BDF6F0E00262A29 /* SignUp.swift in Sources */,
 				8DB476A22BDE3B8800262A29 /* AppDelegate.swift in Sources */,
+				8DB476C12BDF695300262A29 /* UIView+Extensions.swift in Sources */,
 				8DB476BE2BDE3CD000262A29 /* LoginVC.swift in Sources */,
 				8DB476A42BDE3B8800262A29 /* SceneDelegate.swift in Sources */,
 			);
