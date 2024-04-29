@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="33A-pI-HkR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mIH-Ob-vL6">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
@@ -869,6 +869,149 @@
             </objects>
             <point key="canvasLocation" x="-2900" y="415"/>
         </scene>
+        <!--Weather Details ScreenVC-->
+        <scene sceneID="1A8-lz-mZO">
+            <objects>
+                <viewController storyboardIdentifier="WeatherDetailsScreenVC" id="mIH-Ob-vL6" customClass="WeatherDetailsScreenVC" customModule="Weather_Map_iOS_UIKIt" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xca-ZW-QFT">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CURRENT WEATHER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSQ-fa-uwM">
+                                <rect key="frame" x="60" y="97" width="273" height="34.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="29"/>
+                                <color key="textColor" systemColor="systemGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="jK3-5z-dhb">
+                                <rect key="frame" x="8" y="204" width="377" height="476"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country Name: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6j-3M-4yI">
+                                        <rect key="frame" x="0.0" y="0.0" width="377" height="28.666666666666668"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" name="K_PrimaryColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5D-8Y-bHG">
+                                        <rect key="frame" x="0.0" y="40.666666666666657" width="377" height="28.666666666666671"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" name="K_PrimaryColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latitude:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="doQ-yU-AWy">
+                                        <rect key="frame" x="0.0" y="81.333333333333314" width="377" height="28.666666666666671"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" name="K_PrimaryColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Longitude" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0N8-dG-bhS">
+                                        <rect key="frame" x="0.0" y="122.00000000000001" width="377" height="28.666666666666671"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" name="K_PrimaryColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tz_id:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Bd-Md-yK6">
+                                        <rect key="frame" x="0.0" y="162.66666666666669" width="377" height="28.666666666666657"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" name="K_PrimaryColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="localtime:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cjD-XR-KGV">
+                                        <rect key="frame" x="0.0" y="203.33333333333331" width="377" height="28.666666666666657"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" name="K_PrimaryColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="temp_c:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rN6-ji-Cl5">
+                                        <rect key="frame" x="0.0" y="243.99999999999997" width="377" height="28.666666666666657"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" name="K_PrimaryColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="temp_f:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dj7-lv-LiO">
+                                        <rect key="frame" x="0.0" y="284.66666666666669" width="377" height="28.666666666666686"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" name="K_PrimaryColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is_day:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vva-v6-R5O">
+                                        <rect key="frame" x="0.0" y="325.33333333333337" width="377" height="28.666666666666686"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" name="K_PrimaryColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cloud:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uwz-ah-fzX">
+                                        <rect key="frame" x="0.0" y="366" width="377" height="28.666666666666686"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" name="K_PrimaryColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vis_km:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1AR-zI-x6Y">
+                                        <rect key="frame" x="0.0" y="406.66666666666663" width="377" height="28.666666666666686"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" name="K_PrimaryColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="uv:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bG8-6L-Zua">
+                                        <rect key="frame" x="0.0" y="447.33333333333337" width="377" height="28.666666666666686"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" name="K_PrimaryColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8O-0i-veA">
+                                <rect key="frame" x="133" y="724" width="128" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Fetch/Update"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.31051094839999999" green="0.29998757999999998" blue="0.50546480429999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="ButtonRefreshUpdate_Tapped:" destination="mIH-Ob-vL6" eventType="touchUpInside" id="G3o-7C-EY6"/>
+                                    <action selector="fetchUpdateWeather_Tapped:" destination="WRl-LP-TD0" eventType="touchUpInside" id="eJt-73-tGO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iTk-jt-JjW"/>
+                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                        <constraints>
+                            <constraint firstItem="iTk-jt-JjW" firstAttribute="trailing" secondItem="jK3-5z-dhb" secondAttribute="trailing" constant="8" id="0PN-aK-6iz"/>
+                            <constraint firstItem="kSQ-fa-uwM" firstAttribute="top" secondItem="iTk-jt-JjW" secondAttribute="top" constant="38" id="0uF-33-Rtw"/>
+                            <constraint firstItem="jK3-5z-dhb" firstAttribute="top" secondItem="kSQ-fa-uwM" secondAttribute="bottom" constant="72.329999999999998" id="EWf-vB-Gfq"/>
+                            <constraint firstItem="jK3-5z-dhb" firstAttribute="leading" secondItem="iTk-jt-JjW" secondAttribute="leading" constant="8" id="vxc-am-gat"/>
+                            <constraint firstItem="kSQ-fa-uwM" firstAttribute="centerX" secondItem="Xca-ZW-QFT" secondAttribute="centerX" id="w9U-z5-fY2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblCloud" destination="Uwz-ah-fzX" id="JHF-Ra-pjv"/>
+                        <outlet property="lblCountryName" destination="h6j-3M-4yI" id="Qhb-vO-xSC"/>
+                        <outlet property="lblIsDay" destination="vva-v6-R5O" id="Dy7-1H-OMb"/>
+                        <outlet property="lblLatitude" destination="doQ-yU-AWy" id="6d6-Y7-9LK"/>
+                        <outlet property="lblLocalTime" destination="cjD-XR-KGV" id="6NR-EJ-acO"/>
+                        <outlet property="lblLongitude" destination="0N8-dG-bhS" id="wJY-hi-f4z"/>
+                        <outlet property="lblName" destination="C5D-8Y-bHG" id="F51-LT-Rdl"/>
+                        <outlet property="lblTZ_ID" destination="7Bd-Md-yK6" id="6aI-q8-DQf"/>
+                        <outlet property="lblTemp_C" destination="rN6-ji-Cl5" id="qkZ-6I-VcR"/>
+                        <outlet property="lblTemp_F" destination="Dj7-lv-LiO" id="e6q-le-jxg"/>
+                        <outlet property="lblUV" destination="bG8-6L-Zua" id="xWM-fX-HQG"/>
+                        <outlet property="lblVisible_KM" destination="1AR-zI-x6Y" id="ZH0-bJ-9Gg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hOs-Rf-mSp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="WRl-LP-TD0" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-2900" y="1222"/>
+        </scene>
     </scenes>
     <resources>
         <image name="arrow.right" catalog="system" width="128" height="95"/>
@@ -885,6 +1028,9 @@
         <namedColor name="K_GrayGreenMix">
             <color red="0.55686274509803924" green="0.52941176470588236" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
+        <namedColor name="K_PrimaryColor">
+            <color red="0.94099998474121094" green="0.875" blue="0.125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
@@ -897,8 +1043,14 @@
         <systemColor name="systemGray3Color">
             <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

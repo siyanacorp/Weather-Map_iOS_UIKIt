@@ -9,6 +9,9 @@ import UIKit
 
 class PhoneNumberVC: UIViewController {
     // MARK: - IBOUTLETS
+    
+    
+    
     // MARK: - PROPERTIES
     // MARK: - VIEW LIFE CYCLE METHODS
     // TODO: VIEW DID LOAD METHOD
@@ -22,6 +25,6 @@ class PhoneNumberVC: UIViewController {
     }
     
     // MARK: - ACTIONS
-
-
+    @IBAction func fetchUpdateWeather_Tapped(_ sender: UIButton) {
+    }
 }

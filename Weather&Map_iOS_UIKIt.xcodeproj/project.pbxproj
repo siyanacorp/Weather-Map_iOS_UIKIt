@@ -19,6 +19,9 @@
 		8DB476C32BDF6F0E00262A29 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB476C22BDF6F0E00262A29 /* SignUp.swift */; };
 		8DB476C72BDF741200262A29 /* PhoneNumberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB476C62BDF741200262A29 /* PhoneNumberVC.swift */; };
 		8DB476C92BDF742500262A29 /* OtpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB476C82BDF742500262A29 /* OtpVC.swift */; };
+		8DB476CC2BDF7B6300262A29 /* WeatherDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB476CB2BDF7B6300262A29 /* WeatherDetails.swift */; };
+		8DB476CE2BDF86F000262A29 /* WeatherDetailsScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB476CD2BDF86F000262A29 /* WeatherDetailsScreenVC.swift */; };
+		8DDEEAF42BDF8A8E0018A96C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEEAF32BDF8A8E0018A96C /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		8DB476C22BDF6F0E00262A29 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		8DB476C62BDF741200262A29 /* PhoneNumberVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberVC.swift; sourceTree = "<group>"; };
 		8DB476C82BDF742500262A29 /* OtpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVC.swift; sourceTree = "<group>"; };
+		8DB476CB2BDF7B6300262A29 /* WeatherDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetails.swift; sourceTree = "<group>"; };
+		8DB476CD2BDF86F000262A29 /* WeatherDetailsScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailsScreenVC.swift; sourceTree = "<group>"; };
+		8DDEEAF32BDF8A8E0018A96C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +74,10 @@
 		8DB476A02BDE3B8800262A29 /* Weather&Map_iOS_UIKIt */ = {
 			isa = PBXGroup;
 			children = (
+				8DB476CA2BDF7B4100262A29 /* Data Model Classes */,
 				8DB476B52BDE3BB000262A29 /* SystemFiles */,
 				8DB476B72BDE3BDB00262A29 /* Controllers */,
+				8DDEEAF22BDF8A570018A96C /* NetworkManager */,
 				8DB476B62BDE3BC500262A29 /* Storyboards */,
 				8DB476BF2BDF692F00262A29 /* CommonFiles */,
 				8DB476B92BDE3BF200262A29 /* ResourceFiles */,
@@ -101,9 +109,8 @@
 		8DB476B72BDE3BDB00262A29 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8DB476C52BDF73EF00262A29 /* PhoneNumber */,
-				8DB476C42BDF73DF00262A29 /* OTP */,
 				8DB476BC2BDE3CAE00262A29 /* Auth */,
+				8DDEEAF12BDF898F0018A96C /* Home */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -127,6 +134,8 @@
 		8DB476BC2BDE3CAE00262A29 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				8DB476C52BDF73EF00262A29 /* PhoneNumber */,
+				8DB476C42BDF73DF00262A29 /* OTP */,
 				8DB476BD2BDE3CD000262A29 /* LoginVC.swift */,
 				8DB476C22BDF6F0E00262A29 /* SignUp.swift */,
 			);
@@ -155,6 +164,30 @@
 				8DB476C62BDF741200262A29 /* PhoneNumberVC.swift */,
 			);
 			name = PhoneNumber;
+			sourceTree = "<group>";
+		};
+		8DB476CA2BDF7B4100262A29 /* Data Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8DB476CB2BDF7B6300262A29 /* WeatherDetails.swift */,
+			);
+			path = "Data Model Classes";
+			sourceTree = "<group>";
+		};
+		8DDEEAF12BDF898F0018A96C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8DB476CD2BDF86F000262A29 /* WeatherDetailsScreenVC.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		8DDEEAF22BDF8A570018A96C /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				8DDEEAF32BDF8A8E0018A96C /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +265,11 @@
 				8DB476C72BDF741200262A29 /* PhoneNumberVC.swift in Sources */,
 				8DB476A62BDE3B8800262A29 /* ViewController.swift in Sources */,
 				8DB476C92BDF742500262A29 /* OtpVC.swift in Sources */,
+				8DB476CC2BDF7B6300262A29 /* WeatherDetails.swift in Sources */,
+				8DDEEAF42BDF8A8E0018A96C /* NetworkManager.swift in Sources */,
 				8DB476C32BDF6F0E00262A29 /* SignUp.swift in Sources */,
 				8DB476A22BDE3B8800262A29 /* AppDelegate.swift in Sources */,
+				8DB476CE2BDF86F000262A29 /* WeatherDetailsScreenVC.swift in Sources */,
 				8DB476C12BDF695300262A29 /* UIView+Extensions.swift in Sources */,
 				8DB476BE2BDE3CD000262A29 /* LoginVC.swift in Sources */,
 				8DB476A42BDE3B8800262A29 /* SceneDelegate.swift in Sources */,
