@@ -25,6 +25,10 @@ class PhoneNumberVC: UIViewController {
     }
     
     // MARK: - ACTIONS
-    @IBAction func fetchUpdateWeather_Tapped(_ sender: UIButton) {
+    
+    @IBAction func btnSendOTP_Tapped(_ sender: UIButton) {
+        let OTPVC = storyboard?.instantiateViewController(withIdentifier: "OtpVC")
+        navigationController?.pushViewController(OTPVC!, animated: true)
+        
     }
 }

@@ -1,12 +1,13 @@
 //
-//  OtpVC.swift
+//  MediaVC.swift
 //  Weather&Map_iOS_UIKIt
 //
-//  Created by Jogender Singh on 29/04/24.
+//  Created by Jogender Singh on 30/04/24.
 //
 
 import UIKit
-class OtpVC: UIViewController {
+
+class MediaVC: UIViewController {
     // MARK: - IBOUTLETS
     // MARK: - PROPERTIES
     // MARK: - VIEW LIFE CYCLE METHODS
@@ -14,13 +15,14 @@ class OtpVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Do any additional setup after loading the view.
     }
+    
     // TODO: DEINIT
     deinit{
-        print("OtpVC has been REMOVED...!")
+        print("MediaVC has been REMOVED...!")
     }
     
     // MARK: - ACTIONS
-    @IBAction func btnNext_Tapped(_ sender: UIButton) {
-    }
+
 }

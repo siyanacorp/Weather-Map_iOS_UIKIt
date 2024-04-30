@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D9839CC2BE0B0C200DF5DDE /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9839CB2BE0B0C200DF5DDE /* HomeVC.swift */; };
+		8D9839D02BE0B0FF00DF5DDE /* SattingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9839CF2BE0B0FF00DF5DDE /* SattingsVC.swift */; };
+		8D9839D22BE0B11500DF5DDE /* MediaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9839D12BE0B11500DF5DDE /* MediaVC.swift */; };
+		8D9839D42BE0B14100DF5DDE /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9839D32BE0B14100DF5DDE /* ProfileVC.swift */; };
+		8D9839D62BE0B1F300DF5DDE /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9839D52BE0B1F300DF5DDE /* NotificationVC.swift */; };
+		8D9839DA2BE0B8F400DF5DDE /* SattingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9839D82BE0B8F400DF5DDE /* SattingsTableViewCell.swift */; };
+		8D9839DB2BE0B8F400DF5DDE /* SattingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9839D92BE0B8F400DF5DDE /* SattingsTableViewCell.xib */; };
+		8D9839DD2BE0BD8500DF5DDE /* SattingsVC+CustomsMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9839DC2BE0BD8500DF5DDE /* SattingsVC+CustomsMethods.swift */; };
+		8D9839DF2BE0BEAD00DF5DDE /* SattingsVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9839DE2BE0BEAD00DF5DDE /* SattingsVC+TableView.swift */; };
+		8D9839E32BE0C97B00DF5DDE /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9839E12BE0C97B00DF5DDE /* ProfileTableViewCell.swift */; };
+		8D9839E42BE0C97B00DF5DDE /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9839E22BE0C97B00DF5DDE /* ProfileTableViewCell.xib */; };
 		8DB476A22BDE3B8800262A29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB476A12BDE3B8800262A29 /* AppDelegate.swift */; };
 		8DB476A42BDE3B8800262A29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB476A32BDE3B8800262A29 /* SceneDelegate.swift */; };
 		8DB476A62BDE3B8800262A29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB476A52BDE3B8800262A29 /* ViewController.swift */; };
@@ -25,6 +36,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D9839CB2BE0B0C200DF5DDE /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		8D9839CF2BE0B0FF00DF5DDE /* SattingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SattingsVC.swift; sourceTree = "<group>"; };
+		8D9839D12BE0B11500DF5DDE /* MediaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaVC.swift; sourceTree = "<group>"; };
+		8D9839D32BE0B14100DF5DDE /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		8D9839D52BE0B1F300DF5DDE /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		8D9839D82BE0B8F400DF5DDE /* SattingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SattingsTableViewCell.swift; sourceTree = "<group>"; };
+		8D9839D92BE0B8F400DF5DDE /* SattingsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SattingsTableViewCell.xib; sourceTree = "<group>"; };
+		8D9839DC2BE0BD8500DF5DDE /* SattingsVC+CustomsMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SattingsVC+CustomsMethods.swift"; sourceTree = "<group>"; };
+		8D9839DE2BE0BEAD00DF5DDE /* SattingsVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SattingsVC+TableView.swift"; sourceTree = "<group>"; };
+		8D9839E12BE0C97B00DF5DDE /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		8D9839E22BE0C97B00DF5DDE /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
 		8DB4769E2BDE3B8800262A29 /* Weather&Map_iOS_UIKIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather&Map_iOS_UIKIt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB476A12BDE3B8800262A29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DB476A32BDE3B8800262A29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +77,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D95B1532BE0E2EB002B4C1C /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				8DB476BD2BDE3CD000262A29 /* LoginVC.swift */,
+			);
+			name = LoginVC;
+			sourceTree = "<group>";
+		};
+		8D95B1542BE0E2FC002B4C1C /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				8DB476C22BDF6F0E00262A29 /* SignUp.swift */,
+			);
+			name = SignUp;
+			sourceTree = "<group>";
+		};
+		8D9839C52BE0B05A00DF5DDE /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				8D9839CA2BE0B09C00DF5DDE /* Notification */,
+				8D9839C92BE0B08900DF5DDE /* Profile */,
+				8D9839C82BE0B08000DF5DDE /* Media */,
+				8D9839C72BE0B06E00DF5DDE /* SattingsVC */,
+				8D9839C62BE0B06500DF5DDE /* Home */,
+			);
+			name = Tabbar;
+			sourceTree = "<group>";
+		};
+		8D9839C62BE0B06500DF5DDE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8D9839CB2BE0B0C200DF5DDE /* HomeVC.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		8D9839C72BE0B06E00DF5DDE /* SattingsVC */ = {
+			isa = PBXGroup;
+			children = (
+				8D9839D72BE0B76C00DF5DDE /* TableViewCell */,
+				8D9839CF2BE0B0FF00DF5DDE /* SattingsVC.swift */,
+				8D9839DC2BE0BD8500DF5DDE /* SattingsVC+CustomsMethods.swift */,
+				8D9839DE2BE0BEAD00DF5DDE /* SattingsVC+TableView.swift */,
+			);
+			name = SattingsVC;
+			sourceTree = "<group>";
+		};
+		8D9839C82BE0B08000DF5DDE /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				8D9839D12BE0B11500DF5DDE /* MediaVC.swift */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		8D9839C92BE0B08900DF5DDE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8D9839E02BE0C93300DF5DDE /* TableViewCell */,
+				8D9839D32BE0B14100DF5DDE /* ProfileVC.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		8D9839CA2BE0B09C00DF5DDE /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				8D9839D52BE0B1F300DF5DDE /* NotificationVC.swift */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		8D9839D72BE0B76C00DF5DDE /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8D9839D82BE0B8F400DF5DDE /* SattingsTableViewCell.swift */,
+				8D9839D92BE0B8F400DF5DDE /* SattingsTableViewCell.xib */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		8D9839E02BE0C93300DF5DDE /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8D9839E12BE0C97B00DF5DDE /* ProfileTableViewCell.swift */,
+				8D9839E22BE0C97B00DF5DDE /* ProfileTableViewCell.xib */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
 		8DB476952BDE3B8800262A29 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +223,7 @@
 			children = (
 				8DB476BC2BDE3CAE00262A29 /* Auth */,
 				8DDEEAF12BDF898F0018A96C /* Home */,
+				8D9839C52BE0B05A00DF5DDE /* Tabbar */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -136,8 +249,8 @@
 			children = (
 				8DB476C52BDF73EF00262A29 /* PhoneNumber */,
 				8DB476C42BDF73DF00262A29 /* OTP */,
-				8DB476BD2BDE3CD000262A29 /* LoginVC.swift */,
-				8DB476C22BDF6F0E00262A29 /* SignUp.swift */,
+				8D95B1532BE0E2EB002B4C1C /* LoginVC */,
+				8D95B1542BE0E2FC002B4C1C /* SignUp */,
 			);
 			name = Auth;
 			sourceTree = "<group>";
@@ -251,7 +364,9 @@
 				8DB476BB2BDE3C9C00262A29 /* Auth.storyboard in Resources */,
 				8DB476AB2BDE3B8900262A29 /* Assets.xcassets in Resources */,
 				8DB476AE2BDE3B8900262A29 /* Base in Resources */,
+				8D9839DB2BE0B8F400DF5DDE /* SattingsTableViewCell.xib in Resources */,
 				8DB476A92BDE3B8800262A29 /* Base in Resources */,
+				8D9839E42BE0C97B00DF5DDE /* ProfileTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,13 +381,22 @@
 				8DB476A62BDE3B8800262A29 /* ViewController.swift in Sources */,
 				8DB476C92BDF742500262A29 /* OtpVC.swift in Sources */,
 				8DB476CC2BDF7B6300262A29 /* WeatherDetails.swift in Sources */,
+				8D9839DA2BE0B8F400DF5DDE /* SattingsTableViewCell.swift in Sources */,
 				8DDEEAF42BDF8A8E0018A96C /* NetworkManager.swift in Sources */,
+				8D9839DF2BE0BEAD00DF5DDE /* SattingsVC+TableView.swift in Sources */,
+				8D9839D02BE0B0FF00DF5DDE /* SattingsVC.swift in Sources */,
 				8DB476C32BDF6F0E00262A29 /* SignUp.swift in Sources */,
 				8DB476A22BDE3B8800262A29 /* AppDelegate.swift in Sources */,
+				8D9839DD2BE0BD8500DF5DDE /* SattingsVC+CustomsMethods.swift in Sources */,
 				8DB476CE2BDF86F000262A29 /* WeatherDetailsScreenVC.swift in Sources */,
+				8D9839D22BE0B11500DF5DDE /* MediaVC.swift in Sources */,
+				8D9839E32BE0C97B00DF5DDE /* ProfileTableViewCell.swift in Sources */,
 				8DB476C12BDF695300262A29 /* UIView+Extensions.swift in Sources */,
+				8D9839CC2BE0B0C200DF5DDE /* HomeVC.swift in Sources */,
 				8DB476BE2BDE3CD000262A29 /* LoginVC.swift in Sources */,
+				8D9839D42BE0B14100DF5DDE /* ProfileVC.swift in Sources */,
 				8DB476A42BDE3B8800262A29 /* SceneDelegate.swift in Sources */,
+				8D9839D62BE0B1F300DF5DDE /* NotificationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

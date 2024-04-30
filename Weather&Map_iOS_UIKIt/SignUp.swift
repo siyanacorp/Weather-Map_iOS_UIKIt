@@ -22,4 +22,14 @@ class SignUp: UIViewController {
     }
     
     // MARK: - ACTIONS
+    @IBAction func btnBackToSignIn_Tapped(_ sender: UIButton) {
+       // let signInVC = //storyboard?.instantiateViewController(withIdentifier: "SignIn")
+        navigationController?.popToRootViewController(animated: true)
+    }
+    
+    @IBAction func btnGoToPhoneNumberVC_Tapped(_ sender: UIButton) {
+        let phoneNVC = storyboard?.instantiateViewController(withIdentifier: "PhoneNumberVC")
+        navigationController?.pushViewController(phoneNVC!, animated: true)
+    }
+    
 }
